@@ -1,0 +1,236 @@
+A  a
+a  a  a  a
+Anna  eet  ‘n  appel
+Anna  eet  ‘n  appel
+A  a  a  a  a  a  a  a
+Anna  eet  ‘n  appel
+
+---
+
+B  b
+b  b  b  b
+Bontebok  waar  is  jou  boek
+b  b  b
+Bontebok  waar  is  jou  boek
+b  b  b
+Bontebok  waar  is  jou  boek
+b  b  b
+Die  boek  oor  die  bokkies  in  die  bos
+b
+
+
+---
+
+C  c        K  k
+c  c  k  k
+Carla  klap  jou  hande
+Klap  klap  klap
+c  c  c
+Carla  klap  jou  hande
+k  k  k  k  k
+
+---
+
+D  d
+d  d  d  d  d
+Ek  soek  na  my  dassie
+My  dassie
+My  dassie
+Ek  soek  na  my  dassie
+d  d  d  d  d
+
+---
+
+E  e
+e  e  e  e
+Emmers  vol  ertjies
+Emmers  vol  ertjies
+Nou  is  my  elmboog  seer
+e 
+
+---
+
+F  f         V  v
+f  f  v  v
+Flap jul vlerke vlieg flaminke
+Flap jul vlerke vlieg 
+f
+
+---
+
+G  g
+g  g  g
+Daar’s  ‘n  gogga  in  my  keel
+g  g  g
+Daar’s  ‘n  gogga  in  my  keel
+g  g  g  g
+Gogga in my keel
+Gogga  in  my  keel
+Gou  gou  gou  g  hom uit
+
+---
+
+H  h
+h  h 
+Hond  is   haastig  nou  hyg  hy 
+h
+Hond  is  haastig  nou  hyg  hy 
+h
+Hond  is  haastig  nou  hyg  hy 
+h
+Want  hy  het  sy  mond  verbrand
+h  h  h  h  h
+
+---
+
+I  i
+i  i
+‘n  Insek  loop  deur  die  ink
+Hy  het  amper  verdrink
+i  i  i  i 
+Hy  het  amper  verdrink
+
+---
+
+J  j
+j  j  j  j
+Juffrou,  o,  juffrou,  die  jas  laat  my  juk
+Juffrou,  o,  juffrou,  die  jas  laat  my  juk
+Jammer  Jan,  jammer  Jan,  trek  dit gou  uit
+Ja  jong  trek  dit  uit
+
+---
+
+L  l
+l  l
+Dis  heerlike  lente  die  winter’s verby
+Velde  vol  lelies  vir  jou  en  vir  my
+Saam  sing  ons  liedjies,  la  la la  la  la
+Saam  sing  ons  liedjies,  la  la la  la  la
+
+---
+
+M  m
+m  m
+Mielies,  mielies,  spring mielies
+Mielies,  mielies,  spring mielies
+Mielies,  mielies,  spring mielies
+Spring  mielies  is  lekker
+mmm
+
+---
+
+N  n
+n  n  n  n n  n  n  n
+Die  nar  kom  weer
+Want  hy  wil  nie  langer  wag
+Gister  het  die  nar  ons  saam  laat  lag
+Die  nar  kom  weer
+Net  nou  is  hy  hier
+Nou  gaan  ons  skater  van  plesier
+ 
+ ---
+
+ O  o
+o  o  o  o 
+Os,  os  stap  om  die  bos
+Os,  os  stap  om  die  bos
+Os,  os  stap  om  die  bos
+Nou  vreet  hy  sy  kos  op
+
+--- 
+
+P  p
+p  p  p  p
+Pieter  pluk  die  perske  af
+Pieter  eet  die  perske  op
+Pieter  spoeg  die  pit  uit
+So  spoeg  hy  die  pit  uit
+p 
+
+---
+
+Q  q
+q  q  q  q
+q  q  q  
+se  Quintin  die  vis
+q  q  q  
+se  Quintin  die  vis
+Om  en  om  net  soos  ‘n  rat
+Blaas  hy borrels  in  sy  bak
+
+---
+
+R  r
+r  r  r  r
+Rooi  rokkies  wou  sy  dra
+Maar  niemand  kyk  daarna
+En  almal  staan  verslae
+Oor  rooi  rokkies  wat  sy dra.
+
+---
+
+S  s
+s  s  s  s
+Sussie  sleep  ‘n  swaar  sak
+Sussie  sleep  ‘n  swaar  sak
+Sussie  sleep  ‘n  swaar  sak
+
+---
+
+T  t
+t  t  t  t
+Tik,  tik,  tik,  kom  in  toktokkie
+Tik,  tik,  tik,  kom  in  toktokkie
+Tik,  tik,  tik,  kom  in  toktokkie
+Tik,  tik,  tik
+
+--- 
+
+U  u
+u  u
+Urm,  urm,  urm  is  ‘n  wurm
+Urm,  urm,  urm  is  ‘n  wurm
+Urm,  urm,  urm  is  ‘n  wurm
+Hy  kan  krimp  en  strek.
+u
+
+---
+
+W  w
+w  w
+Wikkel,  wikkel  Wouter
+‘n  werkende  kabouter
+Wriemel  hier,  wriemel  daar
+Wikkel,  wikkel  Wouter
+
+---
+
+X  x
+x  x  x  x
+X  x  kliek  die taxi  wiele,  taxi  wiele,  taxi  wiele
+X  x  kliek  die taxi  wiele,  soos  ‘n  saksofoon
+
+---
+
+Y  y     ei
+y  ei 
+Ystervark  se  penne  maak  seer
+Eina,  eina
+Ystervark  se  penne  maak  seer
+Sit  ‘n  bietjie  ys  op
+
+---
+
+Z  z
+z  z  z  z
+Hey  ziekkie  zimba 
+zimba zimba 
+Hey  ziekie  zimba 
+zimba, zoem 
+Hey  ziekkie  zimba 
+zimba zimba 
+Hey  ziekie  zimba 
+zimba  zoem
+So  dans  Ziezie  bytjie 
+So  dans  Ziezie  by
