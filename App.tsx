@@ -1,17 +1,19 @@
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import { TouchableOpacity, Text } from 'react-native';
+import { TouchableOpacity } from 'react-native';
 import { useFonts } from 'expo-font';
 import HomeScreen from './src/screens/HomeScreen';
 import LetterDetailScreen from './src/screens/LetterDetailScreen';
-import FormationScreen from './src/screens/FormationScreen';
+import SettingsScreen from './src/screens/SettingsScreen';
+import SettingsIcon from './src/components/SettingsIcon';
 
 const Stack = createNativeStackNavigator();
 
 export default function App() {
   const [fontsLoaded] = useFonts({
-    TeachersPet: require('./assets/fonts/TeachersPet.ttf'),
+    EduAidSolid: require('./assets/fonts/EduAidSolid.ttf'),
+    EduAidBold: require('./assets/fonts/EduAidBold.ttf'),
   });
 
   if (!fontsLoaded) {
@@ -28,16 +30,26 @@ export default function App() {
           headerTintColor: '#fff',
           headerTitleStyle: {
             fontWeight: 'bold',
-            fontFamily: 'TeachersPet',
+            fontFamily: 'EduAidBold',
           },
-          // Hide the back button text (e.g. "Afrikaans Phonics") on child screens
+          // Hide the back button text (e.g. "Klinkende Klanke") on child screens
           headerBackTitleVisible: false,
         }}
       >
         <Stack.Screen 
           name="Home" 
           component={HomeScreen}
-          options={{ title: 'Afrikaans Phonics' }}
+          options={({ navigation }: any) => ({
+            title: 'Klinkende Klanke',
+            headerRight: () => (
+              <TouchableOpacity
+                onPress={() => navigation.navigate('Settings')}
+                style={{ marginRight: 16, padding: 8 }}
+              >
+                <SettingsIcon size={24} color="#FFFFFF" />
+              </TouchableOpacity>
+            ),
+          })}
         />
         <Stack.Screen 
           name="LetterDetail" 
@@ -49,34 +61,10 @@ export default function App() {
             };
           }}
         />
-        <Stack.Screen 
-          name="Formation" 
-          component={FormationScreen}
-          options={({ navigation, route }: any) => {
-            const params = route.params as { letter: string; isUppercase: boolean } | undefined;
-            return {
-              title: params?.isUppercase 
-                ? `Vorm ${params.letter.toUpperCase()}`
-                : `Vorm ${params?.letter?.toLowerCase() || ''}`,
-              headerRight: () => (
-                <TouchableOpacity
-                  onPress={() => navigation.goBack()}
-                  style={{ marginRight: 16, padding: 8 }}
-                >
-                  <Text
-                    style={{
-                      color: '#fff',
-                      fontSize: 24,
-                      fontWeight: 'bold',
-                      fontFamily: 'TeachersPet',
-                    }}
-                  >
-                    ×
-                  </Text>
-                </TouchableOpacity>
-              ),
-            };
-          }}
+        <Stack.Screen
+          name="Settings"
+          component={SettingsScreen}
+          options={{ title: 'Settings' }}
         />
       </Stack.Navigator>
     </NavigationContainer>

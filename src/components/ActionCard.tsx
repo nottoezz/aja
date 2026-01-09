@@ -108,13 +108,13 @@ const styles = StyleSheet.create({
     fontSize: 80,
     fontWeight: 'bold',
     color: '#4A90E2',
-    fontFamily: 'TeachersPet',
+    fontFamily: 'EduAidBold',
   },
   title: {
     fontSize: 26,
     fontWeight: '600',
     color: '#2C3E50',
-    fontFamily: 'TeachersPet',
+    fontFamily: 'EduAidBold',
   },
   imageContainer: {
     flex: 1,
@@ -141,7 +141,7 @@ const styles = StyleSheet.create({
     color: '#34495E',
     textAlign: 'center',
     fontWeight: '500',
-    fontFamily: 'TeachersPet',
+    fontFamily: 'EduAidSolid',
   },
 });
 

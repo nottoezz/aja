@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Afrikaans Phonics",
-    "slug": "afrikaans-phonics",
+    "name": "Klinkende Klanke",
+    "slug": "klinkende-klanke",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",

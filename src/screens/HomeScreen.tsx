@@ -117,7 +117,10 @@ interface HomeScreenProps {
 }
 
 const HomeScreen: React.FC<HomeScreenProps> = ({ navigation }) => {
-  const alphabet = Object.keys(LETTERS);
+  // Get all letter keys and sort them alphabetically so they appear in correct order
+  const alphabet = Object.keys(LETTERS)
+    .filter((l) => /^[A-Z]$/.test(l))
+    .sort();
   const fadeAnim = useRef(new Animated.Value(0)).current;
   const slideAnim = useRef(new Animated.Value(20)).current;
 
@@ -186,12 +189,12 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     color: '#2C3E50',
     marginBottom: 8,
-    fontFamily: 'TeachersPet',
+    fontFamily: 'EduAidBold',
   },
   subtitle: {
     fontSize: 20,
     color: '#7F8C8D',
-    fontFamily: 'TeachersPet',
+    fontFamily: 'EduAidSolid',
   },
   grid: {
     flexDirection: 'row',
@@ -218,7 +221,8 @@ const styles = StyleSheet.create({
     fontSize: 56,
     fontWeight: 'bold',
     color: '#FFFFFF',
-    fontFamily: 'TeachersPet',
+    fontFamily: 'EduAidBold',
+    marginTop: 20, // push text slightly down to center better within the square
   },
 });
 

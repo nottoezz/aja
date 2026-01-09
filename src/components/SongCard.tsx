@@ -54,7 +54,7 @@ const SongCard: React.FC<SongCardProps> = ({ letter }) => {
         await player.play();
       }
     } catch (error) {
-      console.error("Error playing sound:", error);
+      // Silently handle audio playback errors
     }
   };
 
@@ -220,13 +220,13 @@ const styles = StyleSheet.create({
     fontSize: 80,
     fontWeight: "bold",
     color: "#4A90E2",
-    fontFamily: "TeachersPet",
+    fontFamily: "EduAidBold",
   },
   title: {
     fontSize: 26,
     fontWeight: "600",
     color: "#2C3E50",
-    fontFamily: "TeachersPet",
+    fontFamily: "EduAidBold",
   },
   lyricsContainer: {
     backgroundColor: "#FFFFFF", // White section behind lyrics and artwork
@@ -241,7 +241,7 @@ const styles = StyleSheet.create({
     lineHeight: 32,
     color: "#34495E",
     textAlign: "center",
-    fontFamily: "TeachersPet",
+    fontFamily: "EduAidSolid",
   },
   songArtwork: {
     width: "100%",
@@ -287,7 +287,7 @@ const styles = StyleSheet.create({
     color: "#FFFFFF",
     fontSize: 18,
     fontWeight: "600",
-    fontFamily: "TeachersPet",
+    fontFamily: "EduAidBold",
   },
   modalBackdrop: {
     flex: 1,
@@ -308,7 +308,7 @@ const styles = StyleSheet.create({
     fontWeight: "700",
     marginBottom: 16,
     color: "#2C3E50",
-    fontFamily: "TeachersPet",
+    fontFamily: "EduAidBold",
   },
   modalImage: {
     width: "100%",
@@ -323,7 +323,7 @@ const styles = StyleSheet.create({
     fontSize: 20,
     color: "#34495E",
     textAlign: "center",
-    fontFamily: "TeachersPet",
+    fontFamily: "EduAidSolid",
   },
   modalCloseButton: {
     backgroundColor: "#4A90E2",

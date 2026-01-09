@@ -55,12 +55,7 @@ function createLetterContent(
 ): LetterContent {
   return {
     letter: json.letter,
-    // For now, only A has a real story; others can be filled in later.
-    story:
-      overrides?.story ??
-      (json.letter === 'A'
-        ? "Anna eet 'n appel. Die appel is rooi en lekker. Anna hou van appels. Sy eet 'n appel elke dag."
-        : `Storie vir ${json.letter} kom nog hier.`),
+    story: overrides?.story ?? json.story ?? `Storie vir ${json.letter} kom nog hier.`,
     songAudio,
     lyrics: json.lyrics,
     actionImage,

@@ -1,7 +1,6 @@
 import React from 'react';
 import { View, StyleSheet, ScrollView } from 'react-native';
 import StoryCard from '../components/StoryCard';
-import FormationCard from '../components/FormationCard';
 import SongCard from '../components/SongCard';
 
 interface LetterDetailScreenProps {
@@ -23,8 +22,6 @@ const LetterDetailScreen: React.FC<LetterDetailScreenProps> = ({ route, navigati
       showsVerticalScrollIndicator={false}
     >
       <StoryCard letter={letter} />
-      <View style={styles.spacer} />
-      <FormationCard letter={letter} navigation={navigation} />
       <View style={styles.spacer} />
       <SongCard letter={letter} />
     </ScrollView>
